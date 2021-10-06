@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+<body>
+    <header>
+        <h2>REGISTER HERE</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Back to Fan Page</a>
+    </nav>
+   
+    <main>
+        <h3>Registration Form</h3>
+        <form method="POST" action="https://register.com/api/registration">
+            <div>
+                <label for="registrationName">Name: </label>
+                <input id="registrationName" type="text" name="registrationName" required>
+            </div>
+             <div>
+                <label for="emailAddress">Email: </label>
+                <input id="emailAddress" type="text" name="emailAddress" required>
+            </div>
+            <p></p>
+            <div>
+                <label for="dateOfBirth">Date of Birth: </label>
+                <input id="dateOfBirth" type="date" name="dateOfBirth">
+            </div>
+            <p></p>
+            <div>
+                <label for="favoriteColor">Favorite Color: </label>
+                <input id="favoriteColor" type="text" name="favoriteColor">
+            </div>
+            <p></p>
+            <div>
+                <label for="favoriteNumber">Favorite Number: </label>
+                <input id="favoriteNumber" type="number" name="favoriteNumber">
+            </div>
+            <p></p>
+            <div>
+                <label for="confirm">Confirm Data is Correct: </label>
+                <input id="confirm" type="checkbox" name="confirm">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+            </form> 
+    </main>
+
+
+
+</body>
+</html>
